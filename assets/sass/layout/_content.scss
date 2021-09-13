@@ -1,0 +1,89 @@
+//main content
+
+.content{
+    &__text{
+      margin-top: 60px;
+      padding: 4rem 6rem 6rem 5rem;
+    }
+    &__title{
+      font-family: $old-standard;
+      font-size: $xxx-large;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+    &__paragraph{
+      font-family: $raleway;
+      color: $granite-gray;
+      line-height: 2;
+      margin-bottom: 10px;
+    }
+  }
+  .header {
+    background-image: url('../img/img_ppal.jpg');
+    height: 70vh;
+    background-size: cover;
+  }
+  
+  // Cambio Responsive  
+
+  // de 992px
+  @media (min-width: $breakpoint-desktop) {
+    .content {
+      width: 45%;
+      height: 100vh;
+    }
+  
+    .header {
+      width: 55%;
+      float: right;
+      height: 100vh;
+    }
+
+    .content__paragraph{
+      padding-right: 150px;
+      font-size: $small;
+      margin-bottom: 20px;
+    }
+  }
+  // De 580px a 768px
+  @media (min-width: 580px) and  (max-width:$breakpoint-tablet) { 
+    .header {
+      background-position:5% 23%;
+      height: 75vh;
+      width: 100%;
+  
+    }
+    .content__text {
+      margin-top: 5px;
+      padding: 22px 0px 70px 70px;
+    }
+    .content__paragraph{
+      padding-right: 200px;
+      font-size: $small;
+      margin-bottom: 20px;
+    }
+  }
+  // De 0 a 576px
+  @media (min-width: 0px) and  (max-width:$breakpoint-phone) {
+    .header {
+      width: 100%;
+      height: 70vw;
+    }
+    .content__title {
+      font-size: $xx-large;
+      line-height: 1.3;
+    }
+    .content__text {
+      margin-top: 5px;
+      padding: 45px 18px;
+    }
+    span {
+      display: none;
+    }
+    .content__paragraph {
+      line-height: 1.5;
+    }
+    .content__btn {
+      margin-top: 6px;
+    }
+  }

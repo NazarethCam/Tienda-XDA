@@ -1,0 +1,32 @@
+.content__btn {
+	background-color: $white;
+	font-size: $medium;
+	color: $smoky-black;
+	font-weight: $blod;
+	padding: 8px 2rem;
+	border: 1px solid $smoky-black;
+	&--small{
+		margin-right: 0.75rem;
+	}
+	&--hover:hover{
+		background:$white;
+		color: $smoky-black;
+		border: 2px solid $quick-silver;
+	}
+	&--focus:focus{
+		background: $white;
+		color: $quick-silver;
+		border: 2px solid $quick-silver;
+	}
+}
+
+@media(max-width:$breakpoint-phone){
+	.content__btn--small{
+	    margin-right: 0,25rem;
+	}
+	.content__btn {
+		padding: 0.55rem 0.6rem;
+		font-size:$x-small;
+		text-align: center;
+	}
+}
