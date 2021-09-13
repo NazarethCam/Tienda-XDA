@@ -63,6 +63,7 @@
     text-align: center;
     clip-path: circle(0 at center);
     transition: clip-path 1s ease-in-out;
+    background-color: $white;
     }
 
     .navegation__input:checked + .navegation__menu {
