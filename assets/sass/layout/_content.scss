@@ -45,6 +45,13 @@
       margin-bottom: 20px;
     }
   }
+// De 970
+@media (min-width: 970px) {
+  .content__text {
+    margin-top: 30px;
+    padding: 22px 0px 70px 70px;
+  }
+}
   // De 580px a 768px
   @media (min-width: 580px) and  (max-width:$breakpoint-tablet) { 
     .header {
