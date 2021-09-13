@@ -234,6 +234,7 @@ table {
     flex-direction: column;
     color: #0C0910;
     text-align: center;
+    padding-right: 0;
     -webkit-clip-path: circle(0 at center);
             clip-path: circle(0 at center);
     transition: -webkit-clip-path 1s ease-in-out;
