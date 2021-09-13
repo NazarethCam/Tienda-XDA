@@ -221,6 +221,7 @@ table {
   .navegation__label {
     display: block;
     cursor: pointer;
+    background-color: #FFF;
   }
 
   .navegation__menu {
@@ -239,7 +240,6 @@ table {
     transition: -webkit-clip-path 1s ease-in-out;
     transition: clip-path 1s ease-in-out;
     transition: clip-path 1s ease-in-out, -webkit-clip-path 1s ease-in-out;
-    background-color: #FFF;
   }
 
   .navegation__input:checked + .navegation__menu {
