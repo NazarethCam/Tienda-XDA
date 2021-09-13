@@ -24,6 +24,8 @@
     &__menu {
         display: grid;
         grid-auto-flow: column;
+        gap: 3em;
+        padding-right: 4rem;
     }
 }
 
