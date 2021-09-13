@@ -39,7 +39,7 @@
     font-family: $raleway;
     font-weight: $blod;
     font-size: $medium;
-    background-color: $white;
+    background: $white;
 }
 
 .navegation__label, .navegation__input {
@@ -50,7 +50,6 @@
     .navegation__label{
     display: block;
     cursor: pointer;
-    background-color: $white;
     }
     .navegation__menu {
     position: fixed;
